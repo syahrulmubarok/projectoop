@@ -8,4 +8,5 @@
 <p></p>
 
 <input type="submit" value="Login">
+<input type="reset" value="Batal">
 </form>
