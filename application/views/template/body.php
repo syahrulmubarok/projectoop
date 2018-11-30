@@ -63,4 +63,5 @@
 
 <div id="page-wrapper">
         <div class="row">
-            <div class="col-lg-12 mt-20">
+            <div class="col-lg-12">
+                <div class="marginatas">
