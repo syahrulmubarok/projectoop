@@ -8,4 +8,5 @@
 <p></p>
 
 <input type="submit" value="Login">
+<input type="number" name="harga" id="harga">
 </form>
