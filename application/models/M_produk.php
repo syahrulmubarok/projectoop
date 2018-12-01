@@ -16,6 +16,26 @@ class M_produk extends CI_model
 		return $this->db->insert('produk', $data);
 	}
 
+	public function ambil_data($field, $value)
+	{
+		$this->db->where($field, $value);
+		return $this->db->get('produk');
+	}
+
+	public function update($kode_produk,$post)
+	{
+		$this->db->where('kode_produk', $kode_produk);
+		$this->db->update('produk', $post);
+		return $this->db->affected_rows();
+	}
+	
+	public function hapus($kode_produk)
+	{
+		$this->db->where('kode_produk', $kode_produk);
+		$this->db->delete('produk');
+		return $this->db->affected_rows();
+	}
+
 }
 
 ?>
