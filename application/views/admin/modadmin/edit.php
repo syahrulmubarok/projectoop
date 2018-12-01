@@ -1,7 +1,7 @@
 <form method="post" role="form">
 <div class="input-group">
 	<label>Kode Admin</label><br>
-	<input type="text" name="kode_admin" class="form-control" placeholder="Masukan Kode Admin" value="<?php echo $admin['kode_admin']; ?>"><p></p>
+	<input type="text" name="kode_admin" class="form-control" placeholder="Masukan Kode Admin" value="<?php echo $admin['kode_admin']; ?>" readonly=""><p></p>
 </div>
 <p></p>
 <div class="input-group">
