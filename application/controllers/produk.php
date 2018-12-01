@@ -52,6 +52,28 @@ class Produk extends CI_Controller {
 		redirect('produk','refresh');
 	}
 
-	
+	public function edit($kode_produk)
+	{
+		$query = $this->M_produk->ambil_data('kode_produk', $kode_produk);
+		$data['produk'] = $query->row_array();
+		if($this->input->post()){
+			$post['kode_produk'] = $this->input->post('kode_produk');
+			$post['id_kategori'] = $this->input->post('id_kategori');
+			$post['nama_produk'] = $this->input->post('nama_produk');
+			$post['harga_produk'] = $this->input->post('harga_produk');
 
+			$kode_produk = $this->M_produk->update($kode_produk,$post);
+			redirect('produk','refresh');
+		}
+		$this->load->view('produk/template/head', $data);
+		$this->load->view('produk/template/body', $data);
+		$this->load->view('produk/modproduk/edit', $data);
+		$this->load->view('produk/template/footer', $data);
+	}
+	
+	public function hapus($kode_produk)
+	{
+		$this->M_produk->hapus($kode_produk);
+		redirect('produk','refresh');
+	}
 }
