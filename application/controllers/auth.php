@@ -2,8 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Auth extends CI_Controller {
-
-	private $folder	  	= "";
+	
 	private $page 		= "Data Admin";
 	private $redirect 	= "admin";
 	private $template 	= "";
@@ -22,7 +21,7 @@ class Auth extends CI_Controller {
 					'subpage' 	=> 'Read',
 					'data' 		=> ''
 					);
-		$this->load->view($this->folder.'login', $data);
+		$this->load->view('admin/login', $data);
 	}
 
 public function login(){

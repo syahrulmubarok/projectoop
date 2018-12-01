@@ -17,11 +17,11 @@ class Produk extends CI_Controller {
 					'sub' => "Lihat",
 					'data' => $q
 					);
-		$this->load->view('template/head', $data);
-		$this->load->view('template/body', $data);
-		//$this->load->view('template/menu', $data);
-		$this->load->view('modproduk/lihat', $data);
-		$this->load->view('template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+		//$this->load->view('admin/template/menu', $data);
+		$this->load->view('admin/admin/modproduk/lihat', $data);
+		$this->load->view('admin/template/footer', $data);
 
 		
 
@@ -33,11 +33,11 @@ class Produk extends CI_Controller {
 					'sub' => "Tambah",
 					'data' => ''
 					);
-		$this->load->view('template/head', $data);
-		$this->load->view('template/body', $data);
-	//	$this->load->view('template/menu', $data);
-		$this->load->view('modproduk/tambah', $data);
-		$this->load->view('template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+	//	$this->load->view('admin/template/menu', $data);
+		$this->load->view('admin/modproduk/tambah', $data);
+		$this->load->view('admin/template/footer', $data);
 	}
 
 	public function simpan(){

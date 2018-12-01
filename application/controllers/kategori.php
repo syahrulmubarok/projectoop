@@ -17,11 +17,11 @@ class Kategori extends CI_Controller {
 					'sub' => "Lihat",
 					'data' => $q
 					);
-		$this->load->view('template/head', $data);
-		$this->load->view('template/body', $data);
-	//	$this->load->view('template/menu', $data);
-		$this->load->view('modkategori/lihat', $data);
-		$this->load->view('template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+	//	$this->load->view('admin/template/menu', $data);
+		$this->load->view('admin/modkategori/lihat', $data);
+		$this->load->view('admin/template/footer', $data);
 
 	}
 
@@ -31,11 +31,11 @@ class Kategori extends CI_Controller {
 					'sub' => "Tambah",
 					'data' => ''
 					);
-		$this->load->view('template/head', $data);
-		$this->load->view('template/body', $data);
-	//	$this->load->view('template/menu', $data);
-		$this->load->view('modkategori/tambah', $data);
-		$this->load->view('template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+	//	$this->load->view('admin/template/menu', $data);
+		$this->load->view('admin/modkategori/tambah', $data);
+		$this->load->view('admin/template/footer', $data);
 	}
 
 	public function simpan(){

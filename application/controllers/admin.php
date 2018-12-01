@@ -18,11 +18,11 @@ class Admin extends CI_Controller {
 					'data' => $q
 					);
 
-		$this->load->view('template/head', $data);
-		$this->load->view('template/body', $data);
-		//$this->load->view('template/menu', $data);
-		$this->load->view('modadmin/lihat', $data);
-		$this->load->view('template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+		//$this->load->view('admin/template/menu', $data);
+		$this->load->view('admin/modadmin/lihat', $data);
+		$this->load->view('admin/template/footer', $data);
 		
 	}
 
@@ -32,11 +32,11 @@ class Admin extends CI_Controller {
 					'sub' => "Tambah",
 					'data' => ''
 					);
-					$this->load->view('template/head', $data);
-					$this->load->view('template/body', $data);
-					//$this->load->view('template/menu', $data);
-					$this->load->view('modadmin/tambah', $data);
-					$this->load->view('template/footer', $data);
+					$this->load->view('admin/template/head', $data);
+					$this->load->view('admin/template/body', $data);
+					//$this->load->view('admin/template/menu', $data);
+					$this->load->view('admin/modadmin/tambah', $data);
+					$this->load->view('admin/template/footer', $data);
 	}
 
 	public function simpan(){
@@ -62,10 +62,10 @@ class Admin extends CI_Controller {
 			$kode_admin = $this->M_admin->update($kode_admin,$post);
 			redirect('admin','refresh');
 		}
-		$this->load->view('template/head', $data);
-		$this->load->view('template/body', $data);
-		$this->load->view('modadmin/edit', $data);
-		$this->load->view('template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+		$this->load->view('admin/modadmin/edit', $data);
+		$this->load->view('admin/template/footer', $data);
 	}
 
 	public function hapus($kode_admin)
