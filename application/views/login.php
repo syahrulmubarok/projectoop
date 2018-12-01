@@ -1,4 +1,4 @@
-<body background-color="red">
+<body background-color="green">
     
 <form action="<?php echo site_url('auth/login') ?>" method="post">
 <label>Nama Pengguna</label><br>
