@@ -52,6 +52,9 @@
                         <a href="<?php echo site_url('kategori'); ?>"><i class="fa fa-tags"></i> Kategori</a>
                     </li>
                     <li>
+                        <a href="<?php echo site_url('produk'); ?>"><i class="fa fa-tags"></i> Produk</a>
+                    </li>
+                    <li>
                         <a href="<?php echo site_url('auth'); ?>/logout"><i class="fa fa-power-off"></i> &nbspKeluar</a>
                     </li>
                 </ul>
