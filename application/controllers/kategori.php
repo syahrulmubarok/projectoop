@@ -58,7 +58,7 @@ public function edit($id_kategori)
 			$post['nama_kategori'] = $this->input->post('nama_kategori'));
 
 			$id_kategori = $this->M_kategori->update($id_kategori,$post);
-			redirect('admin','refresh');
+			redirect('ketegori','refresh');
 		}
 		$this->load->view('admin/template/head', $data);
 		$this->load->view('admin/template/body', $data);
@@ -66,9 +66,9 @@ public function edit($id_kategori)
 		$this->load->view('admin/template/footer', $data);
 	}
 
-	public function hapus($id_admin)
+	public function hapus($id_kategori)
 	{
-		$this->M_admin->hapus($id_admin);
+		$this->M_ketegori->hapus($id_kategori);
 		redirect('kategori','refresh');
 	}
 
