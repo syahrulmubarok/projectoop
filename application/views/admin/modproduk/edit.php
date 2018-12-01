@@ -16,7 +16,7 @@
 <p></p>
 <div class="input-group">
     <label>Harga</label><br>
-    <input type="text" name="harga" class="form-control" placeholder="Masukan Harga" value="<?php echo $produk['id_kategori']; ?>"><p></p>
+    <input type="text" name="harga" class="form-control" placeholder="Masukan Harga" value="<?php echo $produk['harga']; ?>"><p></p>
 </div>
 	<input type="submit" value="Simpan">
 	<input type="reset" value="Batal">
