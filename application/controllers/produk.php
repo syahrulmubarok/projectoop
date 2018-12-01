@@ -65,10 +65,10 @@ class Produk extends CI_Controller {
 			$kode_produk = $this->M_produk->update($kode_produk,$post);
 			redirect('produk','refresh');
 		}
-		$this->load->view('produk/template/head', $data);
-		$this->load->view('produk/template/body', $data);
-		$this->load->view('produk/modproduk/edit', $data);
-		$this->load->view('produk/template/footer', $data);
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+		$this->load->view('admin/modproduk/edit', $data);
+		$this->load->view('admin/template/footer', $data);
 	}
 	
 	public function hapus($kode_produk)
