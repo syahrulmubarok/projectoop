@@ -48,4 +48,28 @@ class Kategori extends CI_Controller {
 		redirect('kategori','refresh');
 	}
 
+
+public function edit($id_kategori)
+	{
+		$query = $this->M_kategori->ambil_data('id_kategori', $id_kategori);
+		$data['kategori'] = $query->row_array();
+		if($this->input->post()){
+			$post['id_kategori'] = $this->input->post('id_kategori');
+			$post['nama_kategori'] = $this->input->post('nama_kategori'));
+
+			$id_kategori = $this->M_kategori->update($id_kategori,$post);
+			redirect('admin','refresh');
+		}
+		$this->load->view('admin/template/head', $data);
+		$this->load->view('admin/template/body', $data);
+		$this->load->view('admin/modkategori/edit', $data);
+		$this->load->view('admin/template/footer', $data);
+	}
+
+	public function hapus($id_admin)
+	{
+		$this->M_admin->hapus($id_admin);
+		redirect('kategori','refresh');
+	}
+
 }
