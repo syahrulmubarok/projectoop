@@ -55,7 +55,7 @@ public function edit($id_kategori)
 		$data['kategori'] = $query->row_array();
 		if($this->input->post()){
 			$post['id_kategori'] = $this->input->post('id_kategori');
-			$post['nama_kategori'] = $this->input->post('nama_kategori'));
+			$post['nama_kategori'] = $this->input->post('nama_kategori');
 
 			$id_kategori = $this->M_kategori->update($id_kategori,$post);
 			redirect('ketegori','refresh');
