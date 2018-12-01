@@ -20,7 +20,7 @@ class Produk extends CI_Controller {
 		$this->load->view('admin/template/head', $data);
 		$this->load->view('admin/template/body', $data);
 		//$this->load->view('admin/template/menu', $data);
-		$this->load->view('admin/admin/modproduk/lihat', $data);
+		$this->load->view('admin/modproduk/lihat', $data);
 		$this->load->view('admin/template/footer', $data);
 
 		
