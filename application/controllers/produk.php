@@ -10,7 +10,7 @@ class Produk extends CI_Controller {
 	}
 
 	public function index(){
-		$q = $this->M_produk->GetAll();
+		$q['data'] = $this->M_produk->GetAll();
 
 		$data = array(
 					'judul' => "DATA PRODUK",

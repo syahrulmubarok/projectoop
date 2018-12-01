@@ -18,9 +18,8 @@
     <label>Harga</label><br>
     <input type="text" name="harga_produk" class="form-control" placeholder="Masukan Harga" value="<?php echo $produk['harga_produk']; ?>"><p></p>
 </div>
-	<input type="submit" value="Simpan">
-	<input type="reset" value="Batal">
-
+<input type="submit" value="Simpan" class="btn btn-primary">
+	<a href="javascript:history.back()" class="btn btn-danger">Batal</a>
 </form>
 
 <script type="text/javascript">

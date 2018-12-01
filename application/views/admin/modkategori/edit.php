@@ -9,9 +9,8 @@
     <input type="text" name="id_kategori" class="form-control" placeholder="Masukan Nama Kategori" value="<?php echo $kategori['nama_kategori']; ?>"><p></p>
 </div>
 <p></p>
-	<input type="submit" value="Simpan">
-	<input type="reset" value="Batal">
-
+<input type="submit" value="Simpan" class="btn btn-primary">
+	<a href="javascript:history.back()" class="btn btn-danger">Batal</a>
 
 </form>
 
