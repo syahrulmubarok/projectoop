@@ -1,6 +1,5 @@
 <body background-color="green">
 
-<label>Form Login</label>    
 <form action="<?php echo site_url('auth/login') ?>" method="post">
 <label>Nama Pengguna</label><br>
 <input type="text" name="kode_admin" value="" placeholder="Kode User">
