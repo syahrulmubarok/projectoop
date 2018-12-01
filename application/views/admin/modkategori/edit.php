@@ -8,6 +8,10 @@
     <label>Nama Kategori</label><br>
     <input type="text" name="id_kategori" class="form-control" placeholder="Masukan Nama Kategori" value="<?php echo $kategori['nama_kategori']; ?>"><p></p>
 </div>
+<p></p>
+	<input type="submit" value="Simpan">
+	<input type="reset" value="Batal">
+
 
 </form>
 
