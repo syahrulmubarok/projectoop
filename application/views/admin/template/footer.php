@@ -15,6 +15,9 @@
 <!-- jQuery -->
 <script src="<?php echo base_url(); ?>sbadmin/vendor/jquery/jquery.min.js"></script>
 
+<!-- Custon Script -->
+<script src="<?php echo base_url(); ?>sbadmin/js/script.js"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo base_url(); ?>sbadmin/vendor/bootstrap/js/bootstrap.min.js"></script>
 

@@ -1,5 +1,5 @@
-<a href="<?php echo site_url('kategori/tambah'); ?>" title="Tambah" style="text-decoration: none;"><input class="btn btn-primary" type="button" value="Tambah"></a><p></p>
-
+<button type="button" class="btn btn-primary tombahTambahKategori" data-toggle="modal" data-target="#formModal" href="#">Tambah</button>
+<p></p>
 <table width="100%" class="table table-striped table-bordered table-hover">
 <thead>
 	<tr>
@@ -16,7 +16,7 @@
 	<tr>		
 		<td align="center"><?php echo $row['id_kategori'] ?></td>
 		<td align="center"><?php echo $row['nama_kategori'] ?></td>
-		<td align="center"><a data-toggle="modal" data-target="#formModal" href="#">Ubah</a>|<a href="<?php echo site_url('kategori/hapus'); ?>/<?php echo $row['id_kategori']?>">Hapus</a></td>
+		<td align="center"><a data-toggle="modal" data-target="#formModal" href="#" class="ubahKategori" data-id="<?php echo $row['id_kategori'] ?>">Ubah</a>|<a href="<?php echo site_url('kategori/hapus'); ?>/<?php echo $row['id_kategori']?>">Hapus</a></td>
 	</tr>
 		<?php
 		$no++;
@@ -29,47 +29,44 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="judulModal">Edit Kategori</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <h3 class="modal-title" id="formModalLabel">Tambah Kategori</h3>
       </div>
       <div class="modal-body">
-			<form method="post" role="form">
-				<div class="input-group">
-					<label>ID Kategori</label><br>
-					<input type="text" name="id_kategori" class="form-control" placeholder="Masukan Id Kategori" value="<?php echo $kategori['id_kategori']; ?>"><p></p>
-				</div>
+				<form method="post" role="form" action="<?php echo site_url('kategori/simpan'); ?>" onsubmit="return tambah(this)">
+					<div class="input-group">	
+						<label for="id_kategor">ID Kategori</label><br>
+						<input type="text" name="id_kategori" id="id_kategori" placeholder="ID Kategori" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+						<label>Nama Kategori</label><br>
+						<input type="text" name="nama_kategori" placeholder="Nama Kategori" class="form-control">
+					</div>
 				<p></p>
-				<div class="input-group">
-					<label>Nama Kategori</label><br>
-					<input type="text" name="id_kategori" class="form-control" placeholder="Masukan Nama Kategori" value="<?php echo $kategori['nama_kategori']; ?>"><p></p>
-				</div>
-				<p></p>
-				<input type="submit" value="Simpan" class="btn btn-primary">
-					<a href="javascript:history.back()" class="btn btn-danger">Batal</a>
-		</form>
+<!--
+			<script type="text/javascript">
+				function tambah(form) {
+					if (form.id_kategori.value == '') {
+						alert('ID Kategori, Harus diisi');
+						return false;
+					}
 
-		<script type="text/javascript">
-			function tambah(form) {
-				if (form.id_kategori.value == '') {
-					alert('Id Kategori, Harus diisi');
-					return false;
-				}
+					else if (form.nama_kategori.value == '') {
+						alert('Nama Kategori, Harus diisi');
+						return false;
+					}
 
-				else if (form.nama_kategori.value == '') {
-					alert('Nama Kategori, Harus diisi');
-					return false;
+					else{
+						return true;
+					}
 				}
-				else{
-					return true;
-				}
-			}
-		</script>
+			</script>
+-->
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="submit" class="btn btn-primary">Simpan</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Tambah Data</button>
+				</form>
       </div>
     </div>
   </div>
