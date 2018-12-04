@@ -1,4 +1,4 @@
-<form method="post" role="form" action="<?php echo site_url('admin/simpan'); ?>" onsubmit="return tambah(this)">
+<form method="post" role="form" action="<?php echo site_url('admin/admin/simpan'); ?>" onsubmit="return tambah(this)">
 <div class="input-group">
 	<label>Kode Admin</label><br>
 	<input type="text" name="kode_admin" placeholder="Masukan Kode Admin" class="form-control"><p></p>

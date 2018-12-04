@@ -47,7 +47,7 @@ class Admin extends CI_Controller {
 		);
 
 		$this->M_admin->simpan($data);
-		redirect('admin','refresh');
+		redirect('admin/admin','refresh');
 	}
 
 	public function edit($kode_admin)
@@ -77,7 +77,7 @@ class Admin extends CI_Controller {
 	public function hapus($kode_admin)
 	{
 		$this->M_admin->hapus($kode_admin);
-		redirect('admin','refresh');
+		redirect('admin/admin','refresh');
 	}
 
 }

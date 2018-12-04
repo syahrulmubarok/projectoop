@@ -16,7 +16,7 @@
 	<tr>		
 		<td align="center"><?php echo $row['id_kategori'] ?></td>
 		<td align="center"><?php echo $row['nama_kategori'] ?></td>
-		<td align="center"><a href="<?php echo site_url('kategori/edit'); ?>/<?php echo $row['id_kategori']?>">Ubah</a> | <a href="<?php echo site_url('kategori/hapus'); ?>/<?php echo $row['id_kategori']?>">Hapus</a></td>
+		<td align="center"><a href="<?php echo site_url('admin/kategori/edit'); ?>/<?php echo $row['id_kategori']?>">Ubah</a> | <a href="<?php echo site_url('admin/kategori/hapus'); ?>/<?php echo $row['id_kategori']?>">Hapus</a></td>
 	</tr>
 		<?php
 		$no++;

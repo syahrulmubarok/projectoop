@@ -45,7 +45,7 @@ class Kategori extends CI_Controller {
 		);
 
 		$this->M_kategori->simpan($data);
-		redirect('kategori','refresh');
+		redirect('admin/kategori','refresh');
 	}
 
 
@@ -69,7 +69,7 @@ public function edit($id_kategori)
 	public function hapus($id_kategori)
 	{
 		$this->M_kategori->hapus($id_kategori);
-		redirect('kategori','refresh');
+		redirect('admin/kategori','refresh');
 	}
 
 }

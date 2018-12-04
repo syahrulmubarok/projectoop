@@ -45,17 +45,17 @@
                     </li>
                    
                     <li>
-                        <a href="<?php echo site_url('admin'); ?>"><i class="fa fa-user fa-fw"></i> Admin</a>
+                        <a href="<?php echo site_url('admin/admin'); ?>"><i class="fa fa-user fa-fw"></i> Admin</a>
                     </li>
                    
                     <li>
-                        <a href="<?php echo site_url('kategori'); ?>"><i class="fa fa-tags"></i> Kategori</a>
+                        <a href="<?php echo site_url('admin/kategori'); ?>"><i class="fa fa-tags"></i> Kategori</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url('produk'); ?>"><i class="fa fa-th-list"></i> Produk</a>
+                        <a href="<?php echo site_url('admin/produk'); ?>"><i class="fa fa-th-list"></i> Produk</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url('member'); ?>"><i class="fa fa-users"></i> Member</a>
+                        <a href="<?php echo site_url('admin/member'); ?>"><i class="fa fa-users"></i> Member</a>
                     </li>
                 
                 </ul>

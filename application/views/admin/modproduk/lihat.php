@@ -22,7 +22,7 @@
 		<td align="center"><?php echo $row['nama_kategori'] ?></td>
 		<td align="center"><?php echo $row['nama_produk'] ?></td>
 		<td align="center"><?php echo $row['harga_produk'] ?></td>
-		<td align="center"><a href="<?php echo site_url('produk/edit'); ?>/<?php echo $row['kode_produk']?>">Ubah</a>|<a href="<?php echo site_url('produk/hapus'); ?>/<?php echo $row['kode_produk']?>">Hapus</a></td>
+		<td align="center"><a href="<?php echo site_url('admin/produk/edit'); ?>/<?php echo $row['kode_produk']?>">Ubah</a>|<a href="<?php echo site_url('admin/produk/hapus'); ?>/<?php echo $row['kode_produk']?>">Hapus</a></td>
 	</tr>
 		<?php
 		$no++;

@@ -7,17 +7,15 @@
 
         <title>Electro &#8211; Electronics Ecommerce Theme</title>
 
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="assets/css/font-electro.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="assets/css/owl-carousel.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
-        <link rel="stylesheet" type="text/css" href="assets/css/colors/yellow.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/bootstrap.min.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/font-awesome.min.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/animate.min.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/font-electro.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/owl-carousel.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/style.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/colors/yellow.css" media="all" />
 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800,800italic,600italic,400italic,300italic' rel='stylesheet' type='text/css'>
-
-        <link rel="shortcut icon" href="assets/images/fav-icon.png">
+        <link rel="shortcut icon" href="<?= base_url(); ?>electro/assets/images/fav-icon.png">
     </head>
 
     <body class="home-v2">
@@ -261,7 +259,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -324,7 +322,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -387,7 +385,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -451,7 +449,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -515,7 +513,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -580,7 +578,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -645,7 +643,7 @@
                                                             <div class="wpb_wrapper">
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="540" height="460" src="<?= base_url(); ?>electro/assets/images/megamenu-2.png" class="vc_single_image-img attachment-full" alt="megamenu-2"/></div>
                                                                     </figure>
                                                                 </div>
                                                             </div>
@@ -766,7 +764,7 @@
                                             <li class="mini_cart_item">
                                                 <a title="Remove this item" class="remove" href="#">×</a>
                                                 <a href="single-product.html">
-                                                    <img class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" src="assets/images/products/mini-cart1.jpg" alt="">White lumia 9001&nbsp;
+                                                    <img class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" src="<?= base_url(); ?>electro/assets/images/products/mini-cart1.jpg" alt="">White lumia 9001&nbsp;
                                                 </a>
 
                                                 <span class="quantity">2 × <span class="amount">£150.00</span></span>
@@ -776,7 +774,7 @@
                                             <li class="mini_cart_item">
                                                 <a title="Remove this item" class="remove" href="#">×</a>
                                                 <a href="single-product.html">
-                                                    <img class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" src="assets/images/products/mini-cart2.jpg" alt="">PlayStation 4&nbsp;
+                                                    <img class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" src="<?= base_url(); ?>electro/assets/images/products/mini-cart2.jpg" alt="">PlayStation 4&nbsp;
                                                 </a>
 
                                                 <span class="quantity">1 × <span class="amount">£399.99</span></span>
@@ -785,7 +783,7 @@
                                             <li class="mini_cart_item">
                                                 <a data-product_sku="" data-product_id="34" title="Remove this item" class="remove" href="#">×</a>
                                                 <a href="single-product.html">
-                                                <img class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" src="assets/images/products/mini-cart3.jpg" alt="">POV Action Cam HDR-AS100V&nbsp;
+                                                <img class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image" src="<?= base_url(); ?>electro/assets/images/products/mini-cart3.jpg" alt="">POV Action Cam HDR-AS100V&nbsp;
 
                                                 </a>
 
@@ -834,7 +832,7 @@
 
                                 <div id="owl-main" class="owl-carousel owl-inner-nav owl-ui-sm">
 
-                                    <div class="item" style="background-image: url(assets/images/slider/banner-2.jpg);">
+                                    <div class="item" style="background-image: url(<?= base_url(); ?>electro/assets/images/slider/banner-2.jpg);">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-offset-3 col-md-5">
@@ -859,7 +857,7 @@
                                     </div><!-- /.item -->
 
 
-                                    <div class="item" style="background-image: url(assets/images/slider/banner-1.jpg);">
+                                    <div class="item" style="background-image: url(<?= base_url(); ?>electro/assets/images/slider/banner-1.jpg);">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-offset-3 col-md-5">
@@ -881,7 +879,7 @@
                                         </div><!-- /.container -->
                                     </div><!-- /.item -->
 
-                                    <div class="item" style="background-image: url(assets/images/slider/banner-3.jpg);">
+                                    <div class="item" style="background-image: url(<?= base_url(); ?>electro/assets/images/slider/banner-3.jpg);">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-offset-3 col-md-5">
@@ -913,7 +911,7 @@
                                 <div class="ads-block row">
                                     <div class="ad col-xs-12 col-sm-6">
                                         <div class="media">
-                                            <div class="media-left media-middle"><img src="assets/images/ad-block/1.jpg" alt="" /></div>
+                                            <div class="media-left media-middle"><img src="<?= base_url(); ?>electro/assets/images/ad-block/1.jpg" alt="" /></div>
                                             <div class="media-body media-middle">
                                                 <div class="ad-text">
                                                     Catch Big<br> <strong>Deals</strong>of the<br> Cameras
@@ -926,7 +924,7 @@
                                     </div>
                                     <div class="ad col-xs-12 col-sm-6">
                                         <div class="media">
-                                            <div class="media-left media-middle"><img src="assets/images/ad-block/2.jpg" alt="" /></div>
+                                            <div class="media-left media-middle"><img src="<?= base_url(); ?>electro/assets/images/ad-block/2.jpg" alt="" /></div>
                                             <div class="media-body media-middle">
                                                 <div class="ad-text">
                                                     Tablets, <br>Smartphones<br> and more
@@ -972,7 +970,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Wireless Audio System Multiroom 360</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/3.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/3.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1007,7 +1005,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Tablet Thin EliteBook  Revolve 810 G6</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/1.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/1.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1041,7 +1039,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Purple Solo 2 Wireless</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/5.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/5.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1076,7 +1074,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Tablet Red EliteBook  Revolve 810 G2</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/2.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/2.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1110,7 +1108,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>White Solo 2 Wireless</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/6.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/6.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1145,7 +1143,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Smartphone 6S 32GB LTE</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/4.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/4.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1192,7 +1190,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Wireless Audio System Multiroom 360</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/3.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/3.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1227,7 +1225,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Tablet Thin EliteBook  Revolve 810 G6</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/1.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/1.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1261,7 +1259,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Purple Solo 2 Wireless</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/5.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/5.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1296,7 +1294,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Tablet Red EliteBook  Revolve 810 G2</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/2.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/2.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1330,7 +1328,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>White Solo 2 Wireless</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/6.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/6.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1365,7 +1363,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Smartphone 6S 32GB LTE</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/4.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/4.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1412,7 +1410,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Wireless Audio System Multiroom 360</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/3.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/3.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1447,7 +1445,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Tablet Thin EliteBook  Revolve 810 G6</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/1.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/1.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1481,7 +1479,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Purple Solo 2 Wireless</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/5.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/5.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1516,7 +1514,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Tablet Red EliteBook  Revolve 810 G2</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/2.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/2.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1550,7 +1548,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>White Solo 2 Wireless</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/6.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/6.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1585,7 +1583,7 @@
                                                                     <a href="single-product.html">
                                                                         <h3>Smartphone 6S 32GB LTE</h3>
                                                                         <div class="product-thumbnail">
-                                                                            <img src="assets/images/blank.gif" data-echo="assets/images/products/4.jpg" class="img-responsive" alt="">
+                                                                            <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/products/4.jpg" class="img-responsive" alt="">
                                                                         </div>
                                                                     </a>
 
@@ -1639,11 +1637,11 @@
                                                 </div>
 
 
-                                                <div class="images"><a href="single-product.html" itemprop="image" class="woocommerce-main-image" title=""><img width="600" height="600" src="assets/images/deals/1.jpg" class="wp-post-image" alt="GamePad" title="GamePad"/></a>
+                                                <div class="images"><a href="single-product.html" itemprop="image" class="woocommerce-main-image" title=""><img width="600" height="600" src="<?= base_url(); ?>electro/assets/images/deals/1.jpg" class="wp-post-image" alt="GamePad" title="GamePad"/></a>
                                                     <div class="thumbnails columns-3">
-                                                        <a href="single-product.html" class="first" title=""><img width="180" height="180" src="assets/images/deals/1-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad" title="GamePad"/></a>
-                                                        <a href="single-product.html" class="" title=""><img width="180" height="180" src="assets/images/deals/1-2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad2" title="GamePad2" /></a>
-                                                        <a href="single-product.html" class="last" title=""><img width="180" height="180" src="assets/images/deals/1-3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad3" title="GamePad3" /></a>
+                                                        <a href="single-product.html" class="first" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/1-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad" title="GamePad"/></a>
+                                                        <a href="single-product.html" class="" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/1-2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad2" title="GamePad2" /></a>
+                                                        <a href="single-product.html" class="last" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/1-3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad3" title="GamePad3" /></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1712,12 +1710,12 @@
                                                 </div>
 
 
-                                                <div class="images"><a href="single-product.html" itemprop="image" class="woocommerce-main-image" title=""><img width="600" height="600" src="assets/images/deals/2.jpg" class="wp-post-image" alt="GamePad" title="GamePad"/></a>
+                                                <div class="images"><a href="single-product.html" itemprop="image" class="woocommerce-main-image" title=""><img width="600" height="600" src="<?= base_url(); ?>electro/assets/images/deals/2.jpg" class="wp-post-image" alt="GamePad" title="GamePad"/></a>
                                                     <div class="thumbnails columns-3">
-                                                        <a href="single-product.html" class="first" title=""><img width="180" height="180" src="assets/images/deals/2-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad" title="GamePad"/></a>
-                                                        <a href="single-product.html" class="" title=""><img width="180" height="180" src="assets/images/deals/2-2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad2" title="GamePad2" /></a>
-                                                        <a href="single-product.html" class="last" title=""><img width="180" height="180" src="assets/images/deals/2-3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad3" title="GamePad3" /></a>
-                                                        <a href="single-product.html" class="last" title=""><img width="180" height="180" src="assets/images/deals/2-4.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad3" title="GamePad3" /></a>
+                                                        <a href="single-product.html" class="first" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/2-1.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad" title="GamePad"/></a>
+                                                        <a href="single-product.html" class="" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/2-2.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad2" title="GamePad2" /></a>
+                                                        <a href="single-product.html" class="last" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/2-3.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad3" title="GamePad3" /></a>
+                                                        <a href="single-product.html" class="last" title=""><img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/deals/2-4.jpg" class="attachment-shop_thumbnail size-shop_thumbnail" alt="GamePad3" title="GamePad3" /></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1767,7 +1765,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/3.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/3.jpg" alt="">
                                                         </a>
 
                                                         <div class="media-body">
@@ -1812,7 +1810,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/1.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/1.jpg" alt="">
 
                                                         </a>
 
@@ -1858,7 +1856,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/5.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/5.jpg" alt="">
 
                                                         </a>
 
@@ -1904,7 +1902,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/6.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/6.jpg" alt="">
 
                                                         </a>
 
@@ -1951,7 +1949,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/6.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/6.jpg" alt="">
 
                                                         </a>
 
@@ -1997,7 +1995,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/3.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/3.jpg" alt="">
 
                                                         </a>
 
@@ -2043,7 +2041,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/2.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/2.jpg" alt="">
 
                                                         </a>
 
@@ -2088,7 +2086,7 @@
                                                     <div class="media product-inner">
 
                                                         <a class="media-left" href="single-product.html" title="Pendrive USB 3.0 Flash 64 GB">
-                                                            <img class="media-object wp-post-image img-responsive" src="assets/images/blank.gif" data-echo="assets/images/product-cards/1.jpg" alt="">
+                                                            <img class="media-object wp-post-image img-responsive" src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-cards/1.jpg" alt="">
 
                                                         </a>
 
@@ -2136,7 +2134,7 @@
                             <div class="home-v2-banner-block animate-in-view fadeIn animated" data-animation=" animated fadeIn">
                                 <div class="home-v2-fullbanner-ad fullbanner-ad" style="margin-bottom: 70px">
                                     <a href="#">
-                                        <img src="assets/images/banner/home-v2.png" class="img-fluid" alt="">
+                                        <img src="<?= base_url(); ?>electro/assets/images/banner/home-v2.png" class="img-fluid" alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2167,7 +2165,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Laptop Yoga 21 80JH0035GE  W8.1 (Copy)</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/5.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/5.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2202,7 +2200,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Notebook Black Spire V Nitro  VN7-591G</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/1.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/1.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2237,7 +2235,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Notebook Purple G952VX-T7008T</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/4.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/4.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2272,7 +2270,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Notebook Widescreen Z51-70  40K6013UPB</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/3.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/3.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2308,7 +2306,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Notebook Purple G952VX-T7008T</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/3.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/3.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2343,7 +2341,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Tablet Thin EliteBook  Revolve 810 G6</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/2.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/2.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2378,7 +2376,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Tablet Thin EliteBook  Revolve 810 G6</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/2.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/2.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2414,7 +2412,7 @@
                                                         <a href="single-product.html">
                                                             <h3>Smartphone 6S 128GB LTE</h3>
                                                             <div class="product-thumbnail">
-                                                                <img src="assets/images/blank.gif" data-echo="assets/images/product-category/6.jpg" class="img-responsive" alt="">
+                                                                <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/product-category/6.jpg" class="img-responsive" alt="">
                                                             </div>
                                                         </a>
 
@@ -2452,7 +2450,7 @@
                         <aside class="widget widget_text">
                             <div class="textwidget">
                                 <a href="#">
-                                    <img src="assets/images/banner/ad-banner-sidebar.jpg" alt="Banner">
+                                    <img src="<?= base_url(); ?>electro/assets/images/banner/ad-banner-sidebar.jpg" alt="Banner">
                                 </a>
                             </div>
                         </aside>
@@ -2461,28 +2459,28 @@
                             <ul class="product_list_widget">
                                 <li>
                                     <a href="single-product.html" title="Notebook Black Spire V Nitro  VN7-591G">
-                                        <img width="180" height="180" src="assets/images/product-category/1.jpg" alt="" class="wp-post-image"/><span class="product-title">Notebook Black Spire V Nitro  VN7-591G</span>
+                                        <img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/product-category/1.jpg" alt="" class="wp-post-image"/><span class="product-title">Notebook Black Spire V Nitro  VN7-591G</span>
                                     </a>
                                     <span class="electro-price"><ins><span class="amount">&#36;1,999.00</span></ins> <del><span class="amount">&#36;2,299.00</span></del></span>
                                 </li>
 
                                 <li>
                                     <a href="single-product.html" title="Tablet Thin EliteBook  Revolve 810 G6">
-                                        <img width="180" height="180" src="assets/images/product-category/2.jpg" alt="" class="wp-post-image"/><span class="product-title">Tablet Thin EliteBook  Revolve 810 G6</span>
+                                        <img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/product-category/2.jpg" alt="" class="wp-post-image"/><span class="product-title">Tablet Thin EliteBook  Revolve 810 G6</span>
                                     </a>
                                     <span class="electro-price"><span class="amount">&#36;1,300.00</span></span>
                                 </li>
 
                                 <li>
                                     <a href="single-product.html" title="Notebook Widescreen Z51-70  40K6013UPB">
-                                        <img width="180" height="180" src="assets/images/product-category/3.jpg" alt="" class="wp-post-image"/><span class="product-title">Notebook Widescreen Z51-70  40K6013UPB</span>
+                                        <img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/product-category/3.jpg" alt="" class="wp-post-image"/><span class="product-title">Notebook Widescreen Z51-70  40K6013UPB</span>
                                     </a>
                                     <span class="electro-price"><span class="amount">&#36;1,100.00</span></span>
                                 </li>
 
                                 <li>
                                     <a href="single-product.html" title="Notebook Purple G952VX-T7008T">
-                                        <img width="180" height="180" src="assets/images/product-category/4.jpg" alt="" class="wp-post-image"/><span class="product-title">Notebook Purple G952VX-T7008T</span>
+                                        <img width="180" height="180" src="<?= base_url(); ?>electro/assets/images/product-category/4.jpg" alt="" class="wp-post-image"/><span class="product-title">Notebook Purple G952VX-T7008T</span>
                                     </a>
                                     <span class="electro-price"><span class="amount">&#36;2,780.00</span></span>
                                 </li>
@@ -2563,7 +2561,7 @@
 
                                         <div class="product-carousel-alt">
                                             <a href="single-product.html">
-                                                <div class="product-thumbnail"><img width="250" height="232" src="assets/images/products/1.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="Smartwatch2" /></div>
+                                                <div class="product-thumbnail"><img width="250" height="232" src="<?= base_url(); ?>electro/assets/images/products/1.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="Smartwatch2" /></div>
                                             </a>
 
                                             <span class="loop-product-categories"><a href="single-product.html" rel="tag">Smartwatches</a></span><a href="single-product.html"><h3>Smartwatch 2.0 LTE Wifi  Waterproof</h3></a>
@@ -2572,7 +2570,7 @@
 
                                         <div class="product-carousel-alt">
                                             <a href="single-product.html">
-                                                <div class="product-thumbnail"><img width="250" height="232" src="assets/images/products/2.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="WirelessSound" /></div>
+                                                <div class="product-thumbnail"><img width="250" height="232" src="<?= base_url(); ?>electro/assets/images/products/2.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="WirelessSound" /></div>
                                             </a>
 
                                             <span class="loop-product-categories"><a href="single-product.html" rel="tag">Audio Speakers</a></span><a href="single-product.html"><h3>Wireless Audio System Multiroom 360</h3></a>
@@ -2581,7 +2579,7 @@
 
                                         <div class="product-carousel-alt">
                                             <a href="single-product.html">
-                                                <div class="product-thumbnail"><img width="250" height="232" src="assets/images/products/3.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="Laptop4" /></div>
+                                                <div class="product-thumbnail"><img width="250" height="232" src="<?= base_url(); ?>electro/assets/images/products/3.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="Laptop4" /></div>
                                             </a>
 
                                             <span class="loop-product-categories"><a href="single-product.html" rel="tag">Laptops</a></span><a href="single-product.html"><h3>Notebook Widescreen Y700-17 GF790</h3></a>
@@ -2590,7 +2588,7 @@
 
                                         <div class="product-carousel-alt">
                                             <a href="single-product.html">
-                                                <div class="product-thumbnail"><img width="250" height="232" src="assets/images/products/4.jpg" class="wp-post-image" alt="GamePad" />
+                                                <div class="product-thumbnail"><img width="250" height="232" src="<?= base_url(); ?>electro/assets/images/products/4.jpg" class="wp-post-image" alt="GamePad" />
                                                 </div>
                                             </a><span class="loop-product-categories"><a href="single-product.html" rel="tag">Game Consoles</a></span><a href="single-product.html"><h3>Game Console Controller <br />+ USB 3.0 Cable</h3></a>
                                             <span class="price"><span class="electro-price"><ins><span class="amount">&#036;79.00</span></ins> <del><span class="amount">&#036;99.00</span></del></span></span>
@@ -2615,7 +2613,7 @@
                                     <div class="owl-carousel post-carousel blog-carousel-widget">
                                         <div class="post-item">
                                             <a class="post-thumbnail" href="blog-single.html">
-                                                <img width="270" height="180" src="assets/images/blog/blog-1.jpg" class="wp-post-image" alt="1"/>
+                                                <img width="270" height="180" src="<?= base_url(); ?>electro/assets/images/blog/blog-1.jpg" class="wp-post-image" alt="1"/>
                                             </a>
                                                 <div class="post-content">
                                                     <span class="post-category"><a href="blog-single.html" rel="category tag">Design</a>, <a href="blog-single.html" rel="category tag">Technology</a></span> -
@@ -2626,7 +2624,7 @@
                                         </div>
                                         <div class="post-item">
                                             <a class="post-thumbnail" href="blog-single.html">
-                                                <img width="270" height="138" src="assets/images/blog/blog-2.jpg" class="wp-post-image" alt="6" />
+                                                <img width="270" height="138" src="<?= base_url(); ?>electro/assets/images/blog/blog-2.jpg" class="wp-post-image" alt="6" />
                                             </a>
                                             <div class="post-content">
                                                 <span class="post-category"><a href="blog-single.html" rel="category tag">Design</a>, <a href="blog-single.html" rel="category tag">News</a>, <a href="blog-single.html" rel="category tag">Uncategorized</a></span> -
@@ -2637,7 +2635,7 @@
                                         </div>
                                         <div class="post-item">
                                             <a class="post-thumbnail" href="blog-single.html">
-                                                <img width="270" height="152" src="assets/images/blog/blog-3.jpg" class="attachment-electro_blog_carousel size-electro_blog_carousel wp-post-image" alt="video-format"/>
+                                                <img width="270" height="152" src="<?= base_url(); ?>electro/assets/images/blog/blog-3.jpg" class="attachment-electro_blog_carousel size-electro_blog_carousel wp-post-image" alt="video-format"/>
                                             </a>
                                             <div class="post-content">
                                                 <span class="post-category"><a href="blog-single.html" rel="category tag">Videos</a></span> -
@@ -2682,7 +2680,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                     <img src="assets/images/blank.gif" data-echo="assets/images/brands/1.png" class="img-responsive" alt="">
+                                     <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/1.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2700,7 +2698,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                     <img src="assets/images/blank.gif" data-echo="assets/images/brands/2.png" class="img-responsive" alt="">
+                                     <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/2.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2718,7 +2716,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                     <img src="assets/images/blank.gif" data-echo="assets/images/brands/3.png" class="img-responsive" alt="">
+                                     <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/3.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2736,7 +2734,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/4.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/4.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2754,7 +2752,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/5.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/5.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2772,7 +2770,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/6.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/6.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2790,7 +2788,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/3.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/3.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2808,7 +2806,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/5.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/5.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2826,7 +2824,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/2.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/2.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2844,7 +2842,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/1.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/1.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2862,7 +2860,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/6.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/6.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2880,7 +2878,7 @@
                                         </div><!-- /.info -->
                                     </figcaption>
 
-                                    <img src="assets/images/blank.gif" data-echo="assets/images/brands/4.png" class="img-responsive" alt="">
+                                    <img src="<?= base_url(); ?>electro/assets/images/blank.gif" data-echo="<?= base_url(); ?>electro/assets/images/brands/4.png" class="img-responsive" alt="">
 
                                 </figure>
                             </a>
@@ -2903,7 +2901,7 @@
                                         <ul class="product_list_widget">
                                             <li>
                                                 <a href="single-product.html" title="Tablet Thin EliteBook  Revolve 810 G6">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/1.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/1.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Tablet Thin EliteBook  Revolve 810 G6</span>
                                                 </a>
                                                 <span class="electro-price"><span class="amount">&#36;1,300.00</span></span>
@@ -2911,14 +2909,14 @@
 
                                             <li>
                                                 <a href="single-product.html" title="Smartphone 6S 128GB LTE">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/2.jpg" src="assets/images/blank.gif" alt=""><span class="product-title">Smartphone 6S 128GB LTE</span>
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/2.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt=""><span class="product-title">Smartphone 6S 128GB LTE</span>
                                                 </a>
                                                 <span class="electro-price"><span class="amount">&#36;780.00</span></span>
                                             </li>
 
                                             <li>
                                                 <a href="single-product.html" title="Smartphone 6S 64GB LTE">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/3.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/3.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Smartphone 6S 64GB LTE</span>
                                                 </a>
                                                 <span class="electro-price"><span class="amount">&#36;1,215.00</span></span>
@@ -2933,7 +2931,7 @@
                                         <ul class="product_list_widget">
                                             <li>
                                                 <a href="single-product.html" title="Notebook Black Spire V Nitro  VN7-591G">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/3.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/3.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Notebook Black Spire V Nitro  VN7-591G</span>
                                                 </a>
                                                 <span class="electro-price"><ins><span class="amount">&#36;1,999.00</span></ins> <del><span class="amount">&#36;2,299.00</span></del></span>
@@ -2941,7 +2939,7 @@
 
                                             <li>
                                                 <a href="single-product.html" title="Tablet Red EliteBook  Revolve 810 G2">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/4.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/4.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Tablet Red EliteBook  Revolve 810 G2</span>
                                                 </a>
                                                 <span class="electro-price"><ins><span class="amount">&#36;1,999.00</span></ins> <del><span class="amount">&#36;2,299.00</span></del></span>
@@ -2949,7 +2947,7 @@
 
                                             <li>
                                                 <a href="single-product.html" title="Widescreen 4K SUHD TV">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/5.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/5.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Widescreen 4K SUHD TV</span>
                                                 </a>
                                                 <span class="electro-price"><ins><span class="amount">&#36;2,999.00</span></ins> <del><span class="amount">&#36;3,299.00</span></del></span>
@@ -2965,7 +2963,7 @@
                                         <ul class="product_list_widget">
                                             <li>
                                                 <a href="single-product.html" title="Notebook Black Spire V Nitro  VN7-591G">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/6.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/6.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Notebook Black Spire V Nitro  VN7-591G</span>
                                                 </a>
                                                 <div class="star-rating" title="Rated 5 out of 5"><span style="width:100%"><strong class="rating">5</strong> out of 5</span></div>		<span class="electro-price"><ins><span class="amount">&#36;1,999.00</span></ins> <del><span class="amount">&#36;2,299.00</span></del></span>
@@ -2973,7 +2971,7 @@
 
                                             <li>
                                                 <a href="single-product.html" title="Apple MacBook Pro MF841HN/A 13-inch Laptop">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/7.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/7.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Apple MacBook Pro MF841HN/A 13-inch Laptop</span>
                                                 </a>
                                                 <div class="star-rating" title="Rated 5 out of 5"><span style="width:100%"><strong class="rating">5</strong> out of 5</span></div>		<span class="electro-price"><span class="amount">&#36;1,800.00</span></span>
@@ -2981,7 +2979,7 @@
 
                                             <li>
                                                 <a href="single-product.html" title="Tablet White EliteBook Revolve  810 G2">
-                                                    <img class="wp-post-image" data-echo="assets/images/footer/2.jpg" src="assets/images/blank.gif" alt="">
+                                                    <img class="wp-post-image" data-echo="<?= base_url(); ?>electro/assets/images/footer/2.jpg" src="<?= base_url(); ?>electro/assets/images/blank.gif" alt="">
                                                     <span class="product-title">Tablet White EliteBook Revolve  810 G2</span>
                                                 </a>
                                                 <div class="star-rating" title="Rated 5 out of 5"><span style="width:100%"><strong class="rating">5</strong> out of 5</span></div>		<span class="electro-price"><span class="amount">&#36;1,999.00</span></span>
@@ -3159,11 +3157,11 @@
                         <div class="pull-right flip payment">
                             <div class="footer-payment-logo">
                                 <ul class="cash-card card-inline">
-                                    <li class="card-item"><img src="assets/images/footer/payment-icon/1.png" alt="" width="52"></li>
-                                    <li class="card-item"><img src="assets/images/footer/payment-icon/2.png" alt="" width="52"></li>
-                                    <li class="card-item"><img src="assets/images/footer/payment-icon/3.png" alt="" width="52"></li>
-                                    <li class="card-item"><img src="assets/images/footer/payment-icon/4.png" alt="" width="52"></li>
-                                    <li class="card-item"><img src="assets/images/footer/payment-icon/5.png" alt="" width="52"></li>
+                                    <li class="card-item"><img src="<?= base_url(); ?>electro/assets/images/footer/payment-icon/1.png" alt="" width="52"></li>
+                                    <li class="card-item"><img src="<?= base_url(); ?>electro/assets/images/footer/payment-icon/2.png" alt="" width="52"></li>
+                                    <li class="card-item"><img src="<?= base_url(); ?>electro/assets/images/footer/payment-icon/3.png" alt="" width="52"></li>
+                                    <li class="card-item"><img src="<?= base_url(); ?>electro/assets/images/footer/payment-icon/4.png" alt="" width="52"></li>
+                                    <li class="card-item"><img src="<?= base_url(); ?>electro/assets/images/footer/payment-icon/5.png" alt="" width="52"></li>
                                 </ul>
                             </div><!-- /.payment-methods -->
                         </div>
@@ -3173,16 +3171,16 @@
 
         </div><!-- #page -->
 
-        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-        <script type="text/javascript" src="assets/js/tether.min.js"></script>
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="assets/js/bootstrap-hover-dropdown.min.js"></script>
-        <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-        <script type="text/javascript" src="assets/js/echo.min.js"></script>
-        <script type="text/javascript" src="assets/js/wow.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.easing.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
-        <script type="text/javascript" src="assets/js/electro.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/jquery.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/tether.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/bootstrap-hover-dropdown.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/echo.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/wow.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/jquery.easing.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/jquery.waypoints.min.js"></script>
+        <script type="text/javascript" src="<?= base_url(); ?>electro/assets/js/electro.js"></script>
 
     </body>
 </html>

@@ -23,29 +23,3 @@
 	<input type="reset" value="Batal" class="btn btn-danger" onclick="history.go(-1);">
 
 </form>
-
-<script type="text/javascript">
-	function tambah(form) {
-		if (form.kode_produk.value == '') {
-			alert('Kode Produk, Harus diisi');
-			return false;
-		}
-
-		else if (form.id_kategori.value == '') {
-			alert('ID Kategori, Harus diisi');
-			return false;
-		}
-
-		else if (form.nama_produk.value == '') {
-			alert('Nama Produk, Harus diisi');
-			return false;
-        }    
-        else if (form.harga_produk.value == '') {
-			alert('Harga Produk, Harus diisi');
-			return false;
-		}
-		else{
-			return true;
-		}
-	}
-</script>
