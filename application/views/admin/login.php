@@ -45,7 +45,7 @@
                         <form role="form" action="<?php echo site_url('auth/login') ?>" method="post">
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" autofocus type="text" name="kode_admin" value="" placeholder="Kode User">
+                                    <input class="form-control" autofocus type="text" name="kode_admin" value="" placeholder="Masukan Kode User">
                                 </div>
                                 <div class="form-group">
                                     <input class="form-control" type="password" name="pswd_admin" value="" placeholder="Masukan Kata Sandi">
