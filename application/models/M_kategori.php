@@ -8,7 +8,7 @@ class M_kategori extends CI_model
 	
 	public function GetAll()
 	{
-		return $this->db->query("Select*From kategori order by id_kategori asc");
+		return $this->db->query("Select*from kategori");
 	}
 
 	public function simpan($data)

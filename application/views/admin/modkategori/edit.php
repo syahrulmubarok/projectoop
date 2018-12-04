@@ -1,7 +1,7 @@
 <form method="post" role="form">
 <div class="input-group">
-	<label>Id Kategori</label><br>
-	<input type="text" name="id_kategori" class="form-control" placeholder="Masukan Id Kategori" value="<?php echo $kategori['id_kategori']; ?>"><p></p>
+	<label>ID Kategori</label><br>
+	<input readonly="" type="text" name="id_kategori" class="form-control" placeholder="Masukan Id Kategori" value="<?php echo $kategori['id_kategori']; ?>"><p></p>
 </div>
 <p></p>
 <div class="input-group">

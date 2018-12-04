@@ -52,6 +52,12 @@ class Admin extends CI_Controller {
 
 	public function edit($kode_admin)
 	{
+		$data = array(
+			'judul' => "DATA Admin",
+			'sub' => "Tambah",
+			'data' => ''
+			);
+
 		$query = $this->M_admin->ambil_data('kode_admin', $kode_admin);
 		$data['admin'] = $query->row_array();
 		if($this->input->post()){

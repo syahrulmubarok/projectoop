@@ -54,6 +54,9 @@
                     <li>
                         <a href="<?php echo site_url('produk'); ?>"><i class="fa fa-th-list"></i> Produk</a>
                     </li>
+                    <li>
+                        <a href="<?php echo site_url('member'); ?>"><i class="fa fa-users"></i> Member</a>
+                    </li>
                 
                 </ul>
             </div>

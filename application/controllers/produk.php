@@ -6,7 +6,7 @@ class Produk extends CI_Controller {
 	{
 		parent::__construct();
 		//load model
-		$this->load->model('M_produk');
+		$this->load->model(array('M_produk','M_kategori'));
 	}
 
 	public function index(){
@@ -28,11 +28,8 @@ class Produk extends CI_Controller {
 	}
 
 	public function tambah(){
-		$data = array(
-					'judul' => "DATA Produk",
-					'sub' => "Tambah",
-					'data' => ''
-					);
+		$data['kategori'] = $this->M_kategori->GetAll()->result();
+
 		$this->load->view('admin/template/head', $data);
 		$this->load->view('admin/template/body', $data);
 	//	$this->load->view('admin/template/menu', $data);
@@ -41,9 +38,14 @@ class Produk extends CI_Controller {
 	}
 
 	public function simpan(){
+		$config['upload_path']='./gambar/';
+		$config['allowed_type']='jpg|png';
+		$this->load->library('upload',$config);
+		$this->upload->do_upload();
+
 		$data = array(
 		'kode_produk' => $this->input->post('kode_produk'), 
-		'id_kategori' => $this->input->post('id_kategori'),
+		'id_kategori' => $this->input->post('kategori'),
 		'nama_produk' => $this->input->post('nama_produk'),
 		'harga_produk' => $this->input->post('harga_produk')
 		);
