@@ -1,5 +1,5 @@
-<a href="<?php echo site_url('admin/tambah'); ?>" title="Tambah" style="text-decoration: none;"><input type="button" value="Tambah" class="btn btn-primary"></a><p></p>
-
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModalTambah" href="#">Tambah</button>
+<p></p>
 <table width="100%" class="table table-striped table-bordered table-hover">
 <thead>
 	<tr>
@@ -26,3 +26,51 @@
 		?>
 </tbody>
 </table>
+
+<!-- Modal -->
+<div class="modal fade" id="formModalTambah" tabindex="-1" role="dialog" aria-labelledby="judulModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="formModalLabel">Tambah Admin</h3>
+      </div>
+      <div class="modal-body">
+				<form method="post" role="form" action="<?php echo site_url('admin/simpan'); ?>" onsubmit="return tambah(this)">
+					<div class="input-group">	
+						<label for="kode_admin">Kode Admin</label><br>
+						<input type="text" name="kode_admin" id="kode_admin" placeholder="Kode Admin" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+						<label>Nama Admin</label><br>
+						<input type="text" name="nama_admin" placeholder="Nama admin" class="form-control">
+					</div>
+				<p></p>
+
+			<script type="text/javascript">
+				function tambah(form) {
+					if (form.kode_admin.value == '') {
+						alert('Kode Admin, Harus diisi');
+						return false;
+					}
+
+					else if (form.nama_kategori.value == '') {
+						alert('Nama Admin, Harus diisi');
+						return false;
+					}
+
+					else{
+						return true;
+					}
+				}
+			</script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Tambah Data</button>
+				</form>
+      </div>
+    </div>
+  </div>
+</div>
