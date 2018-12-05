@@ -1,4 +1,5 @@
-<a href="<?php echo site_url('produk/tambah'); ?>" title="Tambah" style="text-decoration: none;"><input type="button" class="btn btn-primary" value="Tambah"></a><p></p>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModalTambah" href="#">Tambah</button>
+<p></p>
 
 <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
 <thead>	
@@ -30,3 +31,81 @@
 		?>
 <tbody>
 </table>
+
+<!-- Modal -->
+<div class="modal fade" id="formModalTambah" tabindex="-1" role="dialog" aria-labelledby="judulModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="formModalLabel">Tambah Produk</h3>
+      </div>
+      <div class="modal-body">
+				<form method="post" role="form" action="<?php echo site_url('produk/simpan'); ?>" onsubmit="return tambah(this)">
+					<div class="input-group">	
+						<label for="kode_produk">Kode Produk</label><br>
+						<input type="text" name="kode_produk" id="kode_produk" placeholder="Kode Produk" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+						<label>ID Kategori</label><br>
+						<input type="text" name="id_kategori" placeholder="ID Kategori" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+						<label>Nama Produk</label><br>
+						<input type="text" name="nama_produk" placeholder="Nama Produk" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+						<label>Harga</label><br>
+						<input type="number" name="harga_produk" placeholder="Harga Produk" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+						<label>Stok</label><br>
+						<input type="number" name="stok" placeholder="Stok" class="form-control">
+					</div>
+				<p></p>
+
+			<script type="text/javascript">
+				function tambah(form) {
+					if (form.kode_produk.value == '') {
+						alert('Kode Produk, Harus diisi');
+						return false;
+					}
+
+					else if (form.nama_kategori.value == '') {
+						alert('Nama Kategori, Harus diisi');
+						return false;
+					}
+
+					else if (form.nama_produk.value == '') {
+						alert('Nama Produk, Harus diisi');
+						return false;
+					}
+
+					else if (form.harga_produk.value == '') {
+						alert('Harga Produk, Harus diisi');
+						return false;
+					}
+					
+					else if (form.stok.value == '') {
+						alert('Stok, Harus diisi');
+						return false;
+					}
+
+					else{
+						return true;
+					}
+				}
+			</script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Tambah Data</button>
+				</form>
+      </div>
+    </div>
+  </div>
+</div>
