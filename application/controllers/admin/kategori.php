@@ -58,7 +58,7 @@ public function edit($id_kategori)
 			$post['nama_kategori'] = $this->input->post('nama_kategori');
 
 			$id_kategori = $this->M_kategori->update($id_kategori,$post);
-			redirect('kategori','refresh');
+			redirect('admin/kategori','refresh');
 		}
 		$this->load->view('admin/template/head', $data);
 		$this->load->view('admin/template/body', $data);

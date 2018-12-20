@@ -6,7 +6,7 @@
 <p></p>
 <div class="input-group">
     <label>Nama Kategori</label><br>
-    <input type="text" name="id_kategori" class="form-control" placeholder="Masukan Nama Kategori" value="<?php echo $kategori['nama_kategori']; ?>"><p></p>
+    <input type="text" name="nama_kategori" class="form-control" placeholder="Masukan Nama Kategori" value="<?php echo $kategori['nama_kategori']; ?>"><p></p>
 </div>
 <p></p>
 <input type="submit" value="Simpan" class="btn btn-primary">
