@@ -37,7 +37,7 @@
         <h3 class="modal-title" id="formModalLabel">Tambah Admin</h3>
       </div>
       <div class="modal-body">
-				<form method="post" role="form" action="<?php echo site_url('admin/simpan'); ?>" onsubmit="return tambah(this)">
+				<form method="post" role="form" action="<?php echo site_url('admin/admin/simpan'); ?>" onsubmit="return tambah(this)">
 					<div class="input-group">	
 						<label for="kode_admin">Kode Admin</label><br>
 						<input type="text" name="kode_admin" id="kode_admin" placeholder="Kode Admin" class="form-control">
