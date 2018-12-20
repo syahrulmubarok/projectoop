@@ -36,37 +36,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-<<<<<<< HEAD
         <h3 class="modal-title" id="formModalLabel">Tambah Produk</h3>
-      </div>
-      <div class="modal-body">
-				<form method="post" role="form" action="<?php echo site_url('produk/simpan'); ?>" onsubmit="return tambah(this)">
-					<div class="input-group">	
-						<label for="kode_produk">Kode Produk</label><br>
-						<input type="text" name="kode_produk" id="kode_produk" placeholder="Kode Produk" class="form-control">
-					</div>
-					<p></p>
-					<div class="input-group">
-						<label>ID Kategori</label><br>
-						<input type="text" name="id_kategori" placeholder="ID Kategori" class="form-control">
-					</div>
-					<p></p>
-					<div class="input-group">
-						<label>Nama Produk</label><br>
-						<input type="text" name="nama_produk" placeholder="Nama Produk" class="form-control">
-					</div>
-					<p></p>
-					<div class="input-group">
-						<label>Harga</label><br>
-						<input type="number" name="harga_produk" placeholder="Harga Produk" class="form-control">
-					</div>
-					<p></p>
-					<div class="input-group">
-						<label>Stok</label><br>
-						<input type="number" name="stok" placeholder="Stok" class="form-control">
-					</div>
-=======
-        <h3 class="modal-title" id="formModalLabel">Tambah Kategori</h3>
       </div>
       <div class="modal-body">
 				<form method="post" role="form" action="<?php echo site_url('admin/produk/simpan'); ?>" onsubmit="return tambah(this)">
@@ -97,18 +67,14 @@
 					</div>
 					<p></p>
 				
->>>>>>> kom it
 				<p></p>
 
 			<script type="text/javascript">
 				function tambah(form) {
-<<<<<<< HEAD
 					if (form.kode_produk.value == '') {
 						alert('Kode Produk, Harus diisi');
-=======
 					if (form.id_kategori.value == '') {
 						alert('ID Kategori, Harus diisi');
->>>>>>> kom it
 						return false;
 					}
 
@@ -117,7 +83,6 @@
 						return false;
 					}
 
-<<<<<<< HEAD
 					else if (form.nama_produk.value == '') {
 						alert('Nama Produk, Harus diisi');
 						return false;
@@ -132,9 +97,6 @@
 						alert('Stok, Harus diisi');
 						return false;
 					}
-
-=======
->>>>>>> kom it
 					else{
 						return true;
 					}
@@ -147,10 +109,7 @@
         <button type="submit" class="btn btn-primary">Tambah Data</button>
 				</form>
       </div>
-    </div>
+    </div>	
   </div>
-<<<<<<< HEAD
 </div>
-=======
 </div>
->>>>>>> kom it
