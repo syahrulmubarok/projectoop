@@ -32,7 +32,7 @@
         <h3 class="modal-title" id="formModalLabel">Tambah Kategori</h3>
       </div>
       <div class="modal-body">
-				<form method="post" role="form" action="<?php echo site_url('kategori/simpan'); ?>" onsubmit="return tambah(this)">
+				<form method="post" role="form" action="<?php echo site_url('admin/kategori/simpan'); ?>" onsubmit="return tambah(this)">
 					<div class="input-group">	
 						<label for="id_kategori">ID Kategori</label><br>
 						<input type="text" name="id_kategori" id="id_kategori" placeholder="ID Kategori" class="form-control">

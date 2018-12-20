@@ -11,7 +11,7 @@ class Produk extends CI_Controller {
 
 	public function index(){
 		$q = $this->M_produk->GetAll();
-
+		$ambil['kategori'] = $this->M_kategori->GetAll()->result();
 		$data = array(
 					'judul' => "DATA PRODUK",
 					'sub' => "Lihat",
@@ -38,13 +38,6 @@ class Produk extends CI_Controller {
 	}
 
 	public function simpan(){
-		$config['upload_path']='./gambar/';
-		$config['allowed_type']='jpg|png';
-		$this->load->library('upload',$config);
-		$this->upload->do_upload();
-		$gambar = $this->upload->data();
-		echo print_r($gambar);
-		die;
 		$data = array(
 		'kode_produk' => $this->input->post('kode_produk'), 
 		'id_kategori' => $this->input->post('kategori'),

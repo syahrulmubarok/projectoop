@@ -1,5 +1,4 @@
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModalTambah" href="#">Tambah</button>
-<p></p>
+<button class="btn btn-primary" data-toggle="modal" data-target="#formModalTambah" href="#">Tambah</button><p></p>
 
 <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
 <thead>	
@@ -37,6 +36,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+<<<<<<< HEAD
         <h3 class="modal-title" id="formModalLabel">Tambah Produk</h3>
       </div>
       <div class="modal-body">
@@ -65,12 +65,50 @@
 						<label>Stok</label><br>
 						<input type="number" name="stok" placeholder="Stok" class="form-control">
 					</div>
+=======
+        <h3 class="modal-title" id="formModalLabel">Tambah Kategori</h3>
+      </div>
+      <div class="modal-body">
+				<form method="post" role="form" action="<?php echo site_url('admin/produk/simpan'); ?>" onsubmit="return tambah(this)">
+					<div class="input-group">	
+						<label for="kode_produk">Kode Produk</label><br>
+						<input type="text" name="kode_produk" id="kode_produk" placeholder="Kode produk" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+					<label>Nama Kategori</label><br>
+					<select name="kategori" class="form-control">
+					<option value="0">Masukan Kategori</option>
+						<?php foreach($kategori as $roww){
+							echo "<option value=$roww->id_kategori>$roww->nama_kategori</option>";
+						}
+						?>
+					</select>
+					</div>
+					<p></p>
+					<div class="input-group">
+					<label>Nama Produk</label><br>
+					<input type="text" name="nama_produk" placeholder="Produk" class="form-control">
+					</div>
+					<p></p>
+					<div class="input-group">
+					<label>Harga Produk</label><br>
+					<input type="number" name="harga_produk" placeholder="Harga Produk" class="form-control">
+					</div>
+					<p></p>
+				
+>>>>>>> kom it
 				<p></p>
 
 			<script type="text/javascript">
 				function tambah(form) {
+<<<<<<< HEAD
 					if (form.kode_produk.value == '') {
 						alert('Kode Produk, Harus diisi');
+=======
+					if (form.id_kategori.value == '') {
+						alert('ID Kategori, Harus diisi');
+>>>>>>> kom it
 						return false;
 					}
 
@@ -79,6 +117,7 @@
 						return false;
 					}
 
+<<<<<<< HEAD
 					else if (form.nama_produk.value == '') {
 						alert('Nama Produk, Harus diisi');
 						return false;
@@ -94,6 +133,8 @@
 						return false;
 					}
 
+=======
+>>>>>>> kom it
 					else{
 						return true;
 					}
@@ -108,4 +149,8 @@
       </div>
     </div>
   </div>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> kom it
