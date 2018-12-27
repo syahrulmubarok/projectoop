@@ -40,8 +40,13 @@
         <div class="navbar-default sidebar" role="navigation">
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
+
+                    <li class="admin-info">
+                        <img src="<?php echo base_url('gambar/s.png');?>">
+                       <span><b>Administrator</b></span>
+                    </li>   
                     <li>
-                        <a href="#"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                        <a href="<?php echo site_url('admin/dashboard'); ?>"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                    
                     <li>
@@ -49,13 +54,13 @@
                     </li>
                    
                     <li>
-                        <a href="<?php echo site_url('admin/kategori'); ?>"><i class="fa fa-tags"></i> Kategori</a>
+                        <a href="<?php echo site_url('admin/kategori'); ?>"><i class="fa fa-tags fa-fw"></i> Kategori</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url('admin/produk'); ?>"><i class="fa fa-th-list"></i> Produk</a>
+                        <a href="<?php echo site_url('admin/produk'); ?>"><i class="fa fa-th-list fa-fw"></i> Produk</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url('admin/member'); ?>"><i class="fa fa-users"></i> Member</a>
+                        <a href="<?php echo site_url('admin/member'); ?>"><i class="fa fa-users fa-fw"></i> Member</a>
                     </li>
                 
                 </ul>
@@ -68,4 +73,3 @@
 <div id="page-wrapper">
         <div class="row">
             <div class="col-lg-12">
-                <div class="marginatas">

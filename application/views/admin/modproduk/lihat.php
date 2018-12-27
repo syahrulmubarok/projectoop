@@ -1,3 +1,4 @@
+<div class="page-header">
 <button class="btn btn-primary" data-toggle="modal" data-target="#formModalTambah" href="#">Tambah</button><p></p>
 
 <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
@@ -30,7 +31,7 @@
 		?>
 <tbody>
 </table>
-
+</div>
 <!-- Modal -->
 <div class="modal fade" id="formModalTambah" tabindex="-1" role="dialog" aria-labelledby="judulModal" aria-hidden="true">
   <div class="modal-dialog" role="document">

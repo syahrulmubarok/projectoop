@@ -42,7 +42,7 @@ public function login(){
 				//$this->session->set_flashdata($this->config->item('flash_name'), $this->config->item('flash_welcome'));
 
 				
-				redirect('admin/admin','refresh');	
+				redirect('admin/dashboard','refresh');	
 			
 		}
 		else{

@@ -1,3 +1,4 @@
+<div class="page-header">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModal" href="#">Tambah</button>
 <p></p>
 <table width="100%" class="table table-striped table-bordered table-hover">
@@ -31,6 +32,7 @@
 		?>
 </tbody>
 </table>
+</div>
 <script type="text/javascript">
 				function tambah(form) {
 					if (form.id_kategori.value == '') {
