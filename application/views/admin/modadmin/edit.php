@@ -1,3 +1,4 @@
+<div class="page-header">
 <form method="post" role="form">
 <div class="input-group">
 	<label>Kode Admin</label><br>
@@ -18,7 +19,7 @@
 	<a href="javascript:history.back()" class="btn btn-danger">Batal</a>
 
 </form>
-
+</div>
 <script type="text/javascript">
 	function tambah(form) {
 		if (form.kode_admin.value == '') {

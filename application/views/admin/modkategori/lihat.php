@@ -35,11 +35,7 @@
       </div>
       <div class="modal-body">
 				<form method="post" role="form" action="<?php echo site_url('admin/kategori/simpan'); ?>" onsubmit="return tambah(this)">
-					<div class="input-group">	
-						<label for="id_kategori">ID Kategori</label><br>
-						<input type="text" name="id_kategori" id="id_kategori" placeholder="ID Kategori" class="form-control">
-					</div>
-					<p></p>
+					
 					<div class="input-group">
 						<label>Nama Kategori</label><br>
 						<input type="text" name="nama_kategori" placeholder="Nama Kategori" class="form-control">

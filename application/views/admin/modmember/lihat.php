@@ -1,5 +1,5 @@
 <div class="page-header">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#formModal" href="#">Tambah</button>
+
 <p></p>
 <table width="100%" class="table table-striped table-bordered table-hover">
 <thead>

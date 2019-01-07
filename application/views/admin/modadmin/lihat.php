@@ -20,7 +20,7 @@
 		<td align="center"><?php echo $no; ?></td>
 		<td align="center"><?php echo $row['kode_admin'] ?></td>
 		<td align="center"><?php echo $row['nama_admin'] ?></td>
-		<td align="center"><a href="<?php echo site_url('admin/admin/edit'); ?>/<?php echo $row['kode_admin']?>">Ubah</a>|<a href="<?php echo site_url('admin/admin/hapus'); ?>/<?php echo $row['kode_admin']?>">Hapus</a></td>
+		<td align="center"><a href="<?php echo site_url('admin/admin/edit'); ?>/<?php echo $row['kode_admin']?>">Ubah</a> | <a href="<?php echo site_url('admin/admin/hapus'); ?>/<?php echo $row['kode_admin']?>">Hapus</a></td>
 	</tr>
 		<?php
 		$no++;

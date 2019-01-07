@@ -40,7 +40,6 @@ class Kategori extends CI_Controller {
 
 	public function simpan(){
 		$data = array(
-		'id_kategori' => $this->input->post('id_kategori'), 
 		'nama_kategori' => $this->input->post('nama_kategori')
 		);
 

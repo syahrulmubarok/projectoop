@@ -23,7 +23,7 @@
 		<td align="center"><?php echo $row['nama_kategori'] ?></td>
 		<td align="center"><?php echo $row['nama_produk'] ?></td>
 		<td align="center"><?php echo $row['harga_produk'] ?></td>
-		<td align="center"><a href="<?php echo site_url('admin/produk/edit'); ?>/<?php echo $row['kode_produk']?>">Ubah</a>|<a href="<?php echo site_url('admin/produk/hapus'); ?>/<?php echo $row['kode_produk']?>">Hapus</a></td>
+		<td align="center"><a href="<?php echo site_url('admin/produk/detail'); ?>/<?php echo $row['kode_produk']?>">Detail</a> | <a href="<?php echo site_url('admin/produk/edit'); ?>/<?php echo $row['kode_produk']?>">Ubah</a> | <a href="<?php echo site_url('admin/produk/hapus'); ?>/<?php echo $row['kode_produk']?>">Hapus</a></td>
 	</tr>
 		<?php
 		$no++;
@@ -40,7 +40,7 @@
         <h3 class="modal-title" id="formModalLabel">Tambah Produk</h3>
       </div>
       <div class="modal-body">
-				<form method="post" role="form" action="<?php echo site_url('admin/produk/simpan'); ?>" onsubmit="return tambah(this)">
+				<form method="post" role="form" action="<?php echo site_url('admin/produk/simpan'); ?>" enctype="multipart/form-data" onsubmit="return tambah(this)">
 					<div class="input-group">	
 						<label for="kode_produk">Kode Produk</label><br>
 						<input type="text" name="kode_produk" id="kode_produk" placeholder="Kode produk" class="form-control">
@@ -48,10 +48,10 @@
 					<p></p>
 					<div class="input-group">
 					<label>Nama Kategori</label><br>
-					<select name="kategori" class="form-control">
+					<select name="id_kategori" class="form-control">
 					<option value="0">Masukan Kategori</option>
-						<?php foreach($kategori as $roww){
-							echo "<option value=$roww->id_kategori>$roww->nama_kategori</option>";
+						<?php foreach($kategori as $row){
+							echo "<option value=$row->id_kategori>$row->nama_kategori</option>";
 						}
 						?>
 					</select>
@@ -66,10 +66,14 @@
 					<label>Harga Produk</label><br>
 					<input type="number" name="harga_produk" placeholder="Harga Produk" class="form-control">
 					</div>
+					<div class="input-group">
+					<label>Gambar Produk</label><br>
+					<input type="file" name="gambar" placeholder="Gambar Produk" class="form-control">
+					</div>
 					<p></p>
 				
 				<p></p>
-
+<!--
 			<script type="text/javascript">
 				function tambah(form) {
 					if (form.kode_produk.value == '') {
@@ -103,6 +107,7 @@
 					}
 				}
 			</script>
+			-->
 
       </div>
       <div class="modal-footer">
