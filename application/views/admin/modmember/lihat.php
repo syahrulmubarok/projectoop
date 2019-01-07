@@ -24,7 +24,7 @@
 		<td align="center"><?php echo $row['email'] ?></td>
 		<td align="center"><?php echo $row['no_hp'] ?></td>
 		<td align="center"><?php echo $row['alamat'] ?></td>
-		<td align="center"><a data-toggle="modal" data-target="#formModal" href="#" class="ubahKategori" data-id="<?php echo $row['id_member'] ?>">Ubah</a>|<a href="<?php echo site_url('kategori/hapus'); ?>/<?php echo $row['id_member']?>">Hapus</a></td>
+		<td align="center"><a href="<?php echo site_url('kategori/hapus'); ?>/<?php echo $row['id_member']?>">Hapus</a></td>
 	</tr>
 		<?php
 		$no++;

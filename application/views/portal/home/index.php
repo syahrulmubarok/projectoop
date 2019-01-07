@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Electro &#8211; Electronics Ecommerce Theme</title>
+        <title>Toko Sanjaya Ecommerce</title>
 
         <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/bootstrap.min.css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>electro/assets/css/font-awesome.min.css" media="all" />

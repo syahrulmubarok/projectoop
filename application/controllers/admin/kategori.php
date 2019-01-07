@@ -52,6 +52,7 @@ public function edit($id_kategori)
 	{
 		$query = $this->M_kategori->ambil_data('id_kategori', $id_kategori);
 		$data['kategori'] = $query->row_array();
+		$data['judul'] = "Edit Kategori";
 		if($this->input->post()){
 			$post['id_kategori'] = $this->input->post('id_kategori');
 			$post['nama_kategori'] = $this->input->post('nama_kategori');

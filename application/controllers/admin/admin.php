@@ -53,7 +53,7 @@ class Admin extends CI_Controller {
 	public function edit($kode_admin)
 	{
 		$data = array(
-			'judul' => "DATA Admin",
+			'judul' => "Edit Admin",
 			'sub' => "Tambah",
 			'data' => ''
 			);
