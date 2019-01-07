@@ -25,7 +25,7 @@
             </tr>
             <tr>
                 <th>Gambar Produk</th>
-                <td align="center"><img src="<?php echo base_url(); ?>gambar/<?= $produk['gambar']; ?>" width="150px" height="150px"></td>
+                <td align="center"><img src="<?php echo base_url(); ?>gambar/<?php echo $produk['gambar']; ?>" width="220px" height="150px"></td>
             </tr>
         </tbody>
         </table>

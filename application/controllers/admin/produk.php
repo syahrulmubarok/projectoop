@@ -44,10 +44,10 @@ class Produk extends CI_Controller {
 		$data['harga_produk'] = $this->input->post('harga_produk');
 		
 		$config['upload_path'] = './gambar/';
-		$config['allowed_types'] = 'gif|jpg|png';
-		$config['max_size']	= '100';
-		$config['max_width']  = '2000';
-		$config['max_height']  = '1804';
+		$config['allowed_types'] = 'gif|jpg|png|jpeg';
+		$config['max_size']	= '10000';
+		$config['max_width']  = '1366';
+		$config['max_height']  = '768';
 
 		$this->load->library('upload', $config);
 
@@ -75,6 +75,24 @@ class Produk extends CI_Controller {
 			$post['id_kategori'] = $this->input->post('id_kategori');
 			$post['nama_produk'] = $this->input->post('nama_produk');
 			$post['harga_produk'] = $this->input->post('harga_produk');
+
+			$config['upload_path'] = './gambar/';
+			$config['allowed_types'] = 'gif|jpg|png|jpeg';
+			$config['max_size']	= '10000';
+			$config['max_width']  = '1366';
+			$config['max_height']  = '768';
+
+			$this->load->library('upload', $config);
+
+			if ( ! $this->upload->do_upload('gambar'))
+			{
+				echo $this->upload->display_errors();	
+			}
+			else
+			{
+				$post['gambar'] = $this->upload->data()['file_name'];
+			
+			}
 
 			$kode_produk = $this->M_produk->update($kode_produk,$post);
 			redirect('admin/produk','refresh');

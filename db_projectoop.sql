@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Des 2018 pada 07.03
+-- Waktu pembuatan: 07 Jan 2019 pada 06.57
 -- Versi server: 10.1.31-MariaDB
 -- Versi PHP: 5.6.34
 
@@ -40,8 +40,7 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`kode_admin`, `nama_admin`, `pswd_admin`) VALUES
 ('admin', 'Administrator', '21232f297a57a5a743894a0e4a801fc3'),
-('syahrul', 'M Syahrul', '95ffb7a15f02c6c23f403edeae956a42'),
-('syahrul1', 'Syahrul Mubarok', '202cb962ac59075b964b07152d234b70');
+('angga', 'M Fatwah', '8479c86c7afcb56631104f5ce5d6de62');
 
 -- --------------------------------------------------------
 
@@ -59,9 +58,29 @@ CREATE TABLE `kategori` (
 --
 
 INSERT INTO `kategori` (`id_kategori`, `nama_kategori`) VALUES
-(1, 'Laptop'),
-(2, 'Alat Rumah Tangga'),
-(3, 'Alat Elektronik');
+(1, 'Laptop');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `member`
+--
+
+CREATE TABLE `member` (
+  `id_member` int(10) NOT NULL,
+  `nama_lengkap` varchar(50) NOT NULL,
+  `email` varchar(80) NOT NULL,
+  `password_member` varchar(50) NOT NULL,
+  `no_hp` varchar(13) NOT NULL,
+  `alamat` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data untuk tabel `member`
+--
+
+INSERT INTO `member` (`id_member`, `nama_lengkap`, `email`, `password_member`, `no_hp`, `alamat`) VALUES
+(1, 'Muhamad Syahrul Mubarok', 'muhamadsyahrulmubarok@gmail.com', '202cb962ac59075b964b07152d234b70', '082328924622', 'Ds. Tembok Luwung RT. 24/05 Kec. Adiwerna Kab. Tegal');
 
 -- --------------------------------------------------------
 
@@ -74,16 +93,45 @@ CREATE TABLE `produk` (
   `kode_produk` varchar(10) NOT NULL,
   `id_kategori` int(5) NOT NULL,
   `nama_produk` varchar(20) NOT NULL,
-  `harga_produk` int(12) NOT NULL
+  `harga_produk` int(12) NOT NULL,
+  `gambar` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data untuk tabel `produk`
 --
 
-INSERT INTO `produk` (`id`, `kode_produk`, `id_kategori`, `nama_produk`, `harga_produk`) VALUES
-(1, 'P01', 3, 'Kipas Angin', 100000),
-(2, 'P02', 3, 'Kipas Angin', 2300000);
+INSERT INTO `produk` (`id`, `kode_produk`, `id_kategori`, `nama_produk`, `harga_produk`, `gambar`) VALUES
+(10, 'L1', 1, 'Asus X450CC', 4500000, 'snsv.png'),
+(13, 'L3', 1, 'Asus ROG GL503VD', 14500000, 'ROG1.jpg'),
+(17, 'L2', 1, 'Acer Aspire 3 A315-4', 7500000, 'aspire_32.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `transaksi`
+--
+
+CREATE TABLE `transaksi` (
+  `id_transaksi` int(10) NOT NULL,
+  `id_member` int(10) NOT NULL,
+  `tanggal` date NOT NULL,
+  `status` int(11) NOT NULL COMMENT '1 = proses , 2 = sudah dikirim',
+  `no_resi` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `transaksi_detail`
+--
+
+CREATE TABLE `transaksi_detail` (
+  `id_detail` int(10) NOT NULL,
+  `id_transaksi` int(10) NOT NULL,
+  `kode_produk` varchar(10) NOT NULL,
+  `qty` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Indexes for dumped tables
@@ -102,6 +150,12 @@ ALTER TABLE `kategori`
   ADD PRIMARY KEY (`id_kategori`);
 
 --
+-- Indeks untuk tabel `member`
+--
+ALTER TABLE `member`
+  ADD PRIMARY KEY (`id_member`);
+
+--
 -- Indeks untuk tabel `produk`
 --
 ALTER TABLE `produk`
@@ -109,24 +163,50 @@ ALTER TABLE `produk`
   ADD KEY `id_kategori` (`id_kategori`);
 
 --
+-- Indeks untuk tabel `transaksi`
+--
+ALTER TABLE `transaksi`
+  ADD PRIMARY KEY (`id_transaksi`);
+
+--
+-- Indeks untuk tabel `transaksi_detail`
+--
+ALTER TABLE `transaksi_detail`
+  ADD PRIMARY KEY (`id_detail`);
+
+--
 -- AUTO_INCREMENT untuk tabel yang dibuang
 --
+
+--
+-- AUTO_INCREMENT untuk tabel `kategori`
+--
+ALTER TABLE `kategori`
+  MODIFY `id_kategori` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT untuk tabel `member`
+--
+ALTER TABLE `member`
+  MODIFY `id_member` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT untuk tabel `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
--- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
+-- AUTO_INCREMENT untuk tabel `transaksi`
 --
+ALTER TABLE `transaksi`
+  MODIFY `id_transaksi` int(10) NOT NULL AUTO_INCREMENT;
 
 --
--- Ketidakleluasaan untuk tabel `produk`
+-- AUTO_INCREMENT untuk tabel `transaksi_detail`
 --
-ALTER TABLE `produk`
-  ADD CONSTRAINT `produk_ibfk_1` FOREIGN KEY (`id_kategori`) REFERENCES `kategori` (`id_kategori`);
+ALTER TABLE `transaksi_detail`
+  MODIFY `id_detail` int(10) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

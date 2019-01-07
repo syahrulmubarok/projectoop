@@ -19,7 +19,7 @@ class M_produk extends CI_model
 	public function ambil_data($field, $value)
 	{
 		$this->db->where($field, $value);
-		return $this->db->query("Select produk.id, produk.kode_produk, kategori.id_kategori, kategori.nama_kategori, produk.nama_produk, produk.harga_produk, produk.gambar From produk, kategori WHERE kategori.id_kategori=produk.id_kategori order by kode_produk asc");
+		return $this->db->get(array('produk','kategori'));
 	}
 
 	public function update($kode_produk,$post)
